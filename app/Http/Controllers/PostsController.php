@@ -19,13 +19,21 @@ class PostsController extends Controller
     public function store() {
         $data= \request()->validate([
             'caption'=>'required',
-            'image'=>['required'],
+            'image'=>'required|image|mimes:jpeg,png,jpg,gif,svg',
         ]);
 
-        auth()->user()->posts()->create($data);
+
+        $imagePath = request('image')->store('uploads', 'public');
+
+        auth()->user()->posts()->create([
+            'caption'=>$data['caption'],
+            'image'=>$imagePath,
+        ]);
+
+        return redirect('/profile/'. auth()->user()->id);
 
 
 
-        dd(\request()->all());
+
     }
 }
