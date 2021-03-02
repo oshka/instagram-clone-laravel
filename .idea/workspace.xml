@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="632afaa6-011a-4a30-a09d-3b2049c6a873" name="Default" comment="[ADD] Restricting/Authorizing Actions with a Model Policy">
+    <list default="true" id="632afaa6-011a-4a30-a09d-3b2049c6a873" name="Default" comment="[ADD] Automatically Creating A Profile Using Model Events">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,7 +317,7 @@
       <workItem from="1614156381753" duration="1210000" />
       <workItem from="1614163307610" duration="25229000" />
       <workItem from="1614599834413" duration="216000" />
-      <workItem from="1614601458881" duration="10585000" />
+      <workItem from="1614601458881" duration="25003000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] creating auth, adding username to user table">
       <created>1614168166117</created>
@@ -376,7 +375,42 @@
       <option name="project" value="LOCAL" />
       <updated>1614675530242</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[ADD] Automatically Creating A Profile Using Model Events">
+      <created>1614677536252</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614677536252</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[ADD] Default Profile Image">
+      <created>1614679777346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614679777346</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[ADD] Follow/Unfollow Profiles Using a Vue.js Component">
+      <created>1614683538311</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614683538311</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[ADD] Many To Many Relationship">
+      <created>1614692132118</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614692132118</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[ADD] Follow/Unfollow, Redirecting to login page for unauthorized people">
+      <created>1614692624989</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614692624989</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -448,7 +482,12 @@
     <MESSAGE value="[ADD] Uploading/Saving the Image to the Project" />
     <MESSAGE value="[ADD] Restricting/Authorizing Actions with a Model Policy" />
     <MESSAGE value="[ADD] Editing the Profile Image" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Editing the Profile Image" />
+    <MESSAGE value="[ADD] Automatically Creating A Profile Using Model Events" />
+    <MESSAGE value="[ADD] Default Profile Image" />
+    <MESSAGE value="[ADD] Follow/Unfollow Profiles Using a Vue.js Component" />
+    <MESSAGE value="[ADD] Many To Many Relationship" />
+    <MESSAGE value="[ADD] Follow/Unfollow, Redirecting to login page for unauthorized people" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Follow/Unfollow, Redirecting to login page for unauthorized people" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
