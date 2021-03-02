@@ -7,8 +7,9 @@
             <img src="{{$user->profile->profileImage()}}" class="rounded-circle w-100">
         </div>
         <div class="col-9 pt-5">
-            <div class="d-flex justify-content-between">
-                <h1>{{$user->username}}</h1>
+            <div class="d-flex justify-content-between align-items-center">
+                <div classs="h4">{{$user->username}}</div>
+                <follow-button user-id="{{$user->id}}"></follow-button>
                 @can ('update', $user->profile)
                     <a href="/p/create">Add new post</a>
                     <a href="/profile/{{$user->id}}/edit">Edit Profile</a>
