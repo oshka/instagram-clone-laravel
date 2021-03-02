@@ -9,7 +9,7 @@
         <div class="col-9 pt-5">
             <div class="d-flex justify-content-between align-items-center">
                 <div classs="h4">{{$user->username}}</div>
-                <follow-button user-id="{{$user->id}}"></follow-button>
+                <follow-button user-id="{{$user->id}}" follows="{{$follows}}"></follow-button>
                 @can ('update', $user->profile)
                     <a href="/p/create">Add new post</a>
                     <a href="/profile/{{$user->id}}/edit">Edit Profile</a>
