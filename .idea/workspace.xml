@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="632afaa6-011a-4a30-a09d-3b2049c6a873" name="Default" comment="[ADD] Showing Posts from Profiles The User Is Following">
+    <list default="true" id="632afaa6-011a-4a30-a09d-3b2049c6a873" name="Default" comment="[ADD] Make Use of Cache for Expensive Query">
+      <change afterPath="$PROJECT_DIR$/app/Mail/NewUserWelcomeMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/welcome-email.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +326,7 @@
       <workItem from="1614163307610" duration="25229000" />
       <workItem from="1614599834413" duration="216000" />
       <workItem from="1614601458881" duration="31614000" />
-      <workItem from="1614871295338" duration="2813000" />
+      <workItem from="1614871295338" duration="5247000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] creating auth, adding username to user table">
       <created>1614168166117</created>
@@ -438,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614872165770</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[ADD] Make Use of Cache for Expensive Query">
+      <created>1614932955513</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614932955513</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -515,7 +524,8 @@
     <MESSAGE value="[ADD]  Calculating Followers Count and Following Count" />
     <MESSAGE value="[ADD] Showing Posts from Profiles The User Is Following" />
     <MESSAGE value="[ADD] Pagination with Eloquent" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Pagination with Eloquent" />
+    <MESSAGE value="[ADD] Make Use of Cache for Expensive Query" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Make Use of Cache for Expensive Query" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
